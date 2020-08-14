@@ -19,17 +19,18 @@ body {
 }
 
 .navbar-brand {
-  font-size: 40px;
+  font-size: 40px !important;
   font-weight: bold;
+  color: #fdfdfd;
+}
+
+.navbar-brand:hover {
+  color: #fdfdfd;
+  cursor: pointer;
 }
 
 .toggler {
   background-color: "white";
-}
-
-.navbar-brand {
-  font-size: 40px !important;
-  color: #fdfdfd;
 }
 
 .active {
@@ -100,6 +101,7 @@ body {
 }
 /* DESCRIPTION ENDS*/
 
+/*TABLE CSS */
 .table {
   font-size: 20px;
   line-height: 23px;

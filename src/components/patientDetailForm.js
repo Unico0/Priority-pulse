@@ -15,6 +15,7 @@ class PatientDetailForm extends Component {
             placeholder="Patient Name"
             onChange={onChangeInput}
             type="text"
+            required
           />
           <Input
             name="patientAge"
@@ -22,6 +23,7 @@ class PatientDetailForm extends Component {
             placeholder="Patient Age"
             onChange={onChangeInput}
             type="number"
+            required
           />
           <Input
             name="case"
@@ -29,6 +31,7 @@ class PatientDetailForm extends Component {
             placeholder="Case"
             onChange={onChangeInput}
             type="text"
+            required
           />
           <Input
             name="plevel"
@@ -36,6 +39,7 @@ class PatientDetailForm extends Component {
             placeholder="Priority Level"
             onChange={onChangeInput}
             type="number"
+            required
           />
 
           <Input
@@ -44,6 +48,7 @@ class PatientDetailForm extends Component {
             placeholder="Contact"
             onChange={onChangeInput}
             type="tel"
+            required
           />
 
           <button type="submit" className="button">
