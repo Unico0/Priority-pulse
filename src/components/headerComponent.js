@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <Navbar expand="md">
       <NavbarBrand>Priority Pulse</NavbarBrand>
-      <NavbarToggler className="toggler" onClick={toggle} />
+      <NavbarToggler onClick={toggle} />
       <Collapse isOpen={isOpen} navbar>
         <Nav className="ml-auto" navbar>
           <NavItem className="my-auto mx-2">

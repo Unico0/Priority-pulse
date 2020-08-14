@@ -17,6 +17,10 @@ body {
   line-height: 26px;
 }
 
+.navbar-toggler-icon {
+  background-image: url("ham.svg");
+}
+
 .navbar-brand {
   font-size: 40px;
   font-weight: bold;
