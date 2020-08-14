@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![Preview](https://github.com/Unico0/Priority-pulse/blob/master/screenshots/pp1.png)
+![Form Submit](https://github.com/Unico0/Priority-pulse/blob/master/screenshots/pp2.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
