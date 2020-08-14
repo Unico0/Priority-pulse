@@ -21,7 +21,6 @@ class App extends Component {
     e.preventDefault();
     const patientData = [...this.state.patientData, this.state.patientDetail];
     this.setState({ patientData });
-    console.log(this.state.patientData);
   };
 
   handleChange = ({ currentTarget }) => {
