@@ -5,7 +5,7 @@ const PatientTable = ({ data }) => {
     <table className="table">
       <thead>
         <tr>
-          <th>S No.</th>
+          <th>S. No.</th>
           <th>Patient Name</th>
           <th>Patient Age</th>
           <th>Case</th>
@@ -14,9 +14,9 @@ const PatientTable = ({ data }) => {
         </tr>
       </thead>
       <tbody>
-        {data.map((patient) => (
-          <tr>
-            <td>1</td>
+        {data.map((patient, i) => (
+          <tr key={i}>
+            <td>{i + 1}</td>
             <td>{patient.patientName}</td>
             <td>{patient.patientAge}</td>
             <td>{patient.case}</td>
